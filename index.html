@@ -11,15 +11,21 @@
   </head>
   <body>
     <header class="header">
-      <nav class="menu">
-        <ul class="menu">
-          <li>главная</li>
-          <li>посмотреть лоты</li>
-          <li>об аукционе</li>
+      <nav class="header_menu">
+        <ul class="header__links-list">
+          <li class="header__links-list-item header__links-list-item_no-bullit header__link_active">главная</li>
+          <li class="header__links-list-item"><a href="#0">посмотреть лоты</a></li>
+          <li class="header__links-list-item"><a href="#0">об аукционе</a></li>
         </ul>
       </nav>
-      <a class="logo" href="#0"><img class="image" src="./images/logo-black.svg" alt="оно тебе надо" /></a>
-      <address class="address">+9 999 555 5555 info@sobaka.ge наб. Принсенграхт 263- 265, Амстердам</address>
+      <div class="header__logo">
+        <a class="header__logo-image" href="#0"><img class="image" src="./images/logo-black.svg" alt="оно тебе надо" /></a>
+      </div>
+      <address class="address header__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        наб. Принсенграхт 263- 265, Амстердам
+      </address>
     </header>
     <main>
       <section class="cover">

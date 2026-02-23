@@ -2,18 +2,35 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    column-gap:;
+    column-gap: 8;
     padding: 0;
+    width: 1,100px;
+    height: 293px;
 }
 
-.menu {
+.header_menu .header__links-list {
     display: flex;
     gap: 32px;
     list-style: circle;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-underline-offset: 4px;
+    color: #000000;
+}
+
+header__links-list {
+
+}
+
+header__links-list-item_no-bullit {
+    list-style: none;
 }
 
 .logo {
-
+    
 }
 
 .image {
@@ -22,7 +39,18 @@
 }
 
 .address {
-    
+    width: 240px;
+    height: 98px;
+    justify-self: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-underline-offset: 4px;
 }
 
 .cover {
