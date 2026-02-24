@@ -3,10 +3,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     column-gap: 8;
-    padding: 0;
-    width: 1,100px;
-    height: 293px;
-    padding: 92px 50px 96px;
+    padding: 110px 50px 96px;
 }
 
 .header_menu .header__links-list {
@@ -30,19 +27,17 @@
 }
 
 .header__logo {
-    width: 148px;
-    height: 105px;
+    padding: 3px 12px 3px;
 }
 
 .header__logo-image {
-    width: 130px;
+    width: 140px;
     height: 105px;
-    opacity: 1;
+    
 }
 
 .address {
-    width: 240px;
-    height: 98px;
+    max-width: 240px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,15 +58,18 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 757px;
-    width: 1100px;
     position: relative;
-    padding: 293px 0 180px;
+    padding: 165px 50px 50px;
 }
 
 .overlay {
     position: absolute;
-    background-color: #000000;
-    opacity: 0.6;
+    background-color: rgb(0 0 0 / 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
 .cover__title {
@@ -83,40 +81,45 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    position: relative;
+    z-index: 1;
 }
 
 .aligned-text {
-
+    z-index: 1;
 }
 
 .aligned-text_left {
-
+    z-index: 1;
 }
 
 .aligned-text_center {
-
+    z-index: 1;
 }
 
 .aligned-text_right {
-
+    z-index: 1;
 }
 
 .letter-spacing-extended {
     letter-spacing: 0.3em;
+    z-index: 1;
 }
 
 .no-letter-spacing {
-
+    z-index: 1;
 }
 
 .cover__description {
     display: flex;
     align-items: end;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .cover__description-text {
     color: #FFFFFF;
+    z-index: 1;
 }
 
 .bet-button {
@@ -124,6 +127,7 @@
     height: 51px;
     background: transparent;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 .lots {
