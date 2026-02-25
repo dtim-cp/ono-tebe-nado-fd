@@ -83,6 +83,8 @@
     color: #FFFFFF;
     position: relative;
     z-index: 1;
+    width: 1000px;
+    height: 385px;
 }
 
 .aligned-text {
@@ -90,14 +92,17 @@
 }
 
 .aligned-text_left {
+    justify-self: top left;
     z-index: 1;
 }
 
 .aligned-text_center {
+    justify-self: center;
     z-index: 1;
 }
 
 .aligned-text_right {
+    justify-self: right bottom;
     z-index: 1;
 }
 
@@ -118,16 +123,29 @@
 }
 
 .cover__description-text {
-    color: #FFFFFF;
     z-index: 1;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .bet-button {
     width: 256px;
     height: 51px;
     background: transparent;
-    color: #FFFFFF;
     z-index: 1;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .lots {
@@ -139,7 +157,9 @@
 }
 
 .lots__card-list {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .lots__card-list-item {
@@ -154,32 +174,48 @@
 
 }
 
-.card_type_film {
+.lots__card-list-item {
+    color: #FFFFFF;
+    position: relative;
+}
 
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card_type_book {
-
+    background-image: url(..//images/card-lot-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card_type_picture {
-
+    background-image: url(..//images/card-lot-03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card__title {
-
+    z-index: 1;
+    color: #FFFFFF;
+    position: relative;
 }
 
 .card__text {
-
+    z-index: 1;
+    color: #FFFFFF;
+    position: relative;
 }
 
 .lots__look-more-link {
-
+    z-index: 1;
 }
 
 .about {
-    padding: 133px 0 13px 359px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 .about__column {
@@ -205,6 +241,8 @@
 }
 
 .footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 180px 0 0;
 }
 
@@ -213,15 +251,14 @@
 }
 
 .footer__menu-list {
-
+    list-style: none;
+    
 }
 
 .footer__menu-list-item {
-
 }
 
 .footer__menu-link {
-
 }
 
 .footer__menu-link_active {
@@ -229,7 +266,11 @@
 }
 
 .footer__social-list {
-
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 48px;
+    list-style: none;
 }
 
 .footer__social-list-item {
@@ -243,4 +284,5 @@
 .footer__social-icon {
     width: 48px;
     height: 48px;
+
 }
