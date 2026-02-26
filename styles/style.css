@@ -3,7 +3,7 @@
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
     column-gap: 8;
-    padding: 92px 50px 96px;
+    padding: 92px 50px 90px;
 }
 
 .header_menu .header__links-list {
@@ -172,7 +172,7 @@
 .lots__card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 26px;
 }
 
 .card {
@@ -248,7 +248,7 @@
 }
 
 .about {
-    padding: 155px 24px 180px 20px;
+    padding: 150px 24px 180px 20px;
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
