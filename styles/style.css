@@ -42,17 +42,18 @@
 
 .address {
     max-width: 240px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
 .header__address {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+
     text-underline-offset: 4px;
     justify-self: end;
 }
