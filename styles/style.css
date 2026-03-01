@@ -195,7 +195,7 @@
     height: 100%;
 }
 
-.card{
+.card {
     position: relative;
     display: flex;
     flex-direction: column;
